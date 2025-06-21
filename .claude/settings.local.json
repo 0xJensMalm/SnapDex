@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xcodebuild:*)"
+      "Bash(xcodebuild:*)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:platform.openai.com)",
+      "Bash(rm:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }
